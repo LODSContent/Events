@@ -2,7 +2,7 @@ $scriptPath = 'C:\Users\Admin\Documents\download_files.ps1'
 $scriptContent = @"
 Import-Module -Name Microsoft.PowerShell.Archive
  
-`$url = 'https://tc24labfiles.s3.us-west-2.amazonaws.com/1796/VM+Files/Desktop/VM+Files.zip'
+`$url = 'https://tc24labfiles.s3.us-west-2.amazonaws.com/1796/VM+Files/VM+Files.zip'
 `$destination = 'C:\Users\Admin\VM Files.zip'
  
 Invoke-WebRequest -Uri `$url -OutFile `$destination -Verbose
